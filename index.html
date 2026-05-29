@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nova Essence, productos artesanales con combo RD$800, gel hidratante, exfoliante de cafe y vela aromatica de canela.">
+  <meta name="theme-color" content="#123d24">
+  <title>Nova Essence | Cuidado natural y bienestar</title>
+
+  <link rel="icon" type="image/png" href="nova-essence-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a class="logo" href="#inicio" aria-label="Nova Essence inicio">
+        <img src="nova-essence-logo.png" alt="Logo Nova Essence">
+        <span>Nova Essence</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navegacion principal">
+        <a href="#beneficios">Beneficios</a>
+        <a href="#catalogo">Catalogo</a>
+        <a href="#piel">Ambientes</a>
+        <a href="#pedido">Pedido</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <a class="nav-cta" href="#pedido">Ordenar</a>
+
+      <button class="menu-btn" type="button" id="menuBtn" aria-label="Abrir menu" aria-controls="sideMenu" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <aside class="side-menu" id="sideMenu" aria-label="Menu movil">
+    <button class="close-btn" type="button" id="closeMenu" aria-label="Cerrar menu">
+      <i class="fas fa-xmark"></i>
+    </button>
+    <a href="#inicio">Inicio</a>
+    <a href="#beneficios">Beneficios</a>
+    <a href="#catalogo">Catalogo</a>
+    <a href="#piel">Ambientes</a>
+    <a href="#rutina">Rutina</a>
+    <a href="#pedido">Pedido</a>
+    <a href="#faq">Preguntas</a>
+  </aside>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-slider" aria-hidden="true">
+        <div class="hero-slide active">
+          <img src="combo-nova-essence-800.png" alt="">
+        </div>
+        <div class="hero-slide">
+          <img src="gel-hidratante-aloe.png" alt="">
+        </div>
+        <div class="hero-slide">
+          <img src="exfoliante-cafe-abierto.png" alt="">
+        </div>
+      </div>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-inner container">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Cuidado natural y bienestar</p>
+          <h1>Productos frescos, bonitos y listos para tu rutina.</h1>
+          <p class="hero-copy">
+            Nova Essence reune vela aromatica de canela, gel hidratante y exfoliante de cafe en un combo artesanal de RD$800, limpio y facil de pedir.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#pedido">
+              <i class="fab fa-whatsapp"></i>
+              Pedir por WhatsApp
+            </a>
+            <a class="btn btn-secondary" href="#catalogo">Ver productos</a>
+          </div>
+
+          <div class="trust-row" aria-label="Informacion validada">
+            <span><i class="fas fa-user-doctor"></i> Revisado por especialistas</span>
+            <span><i class="fas fa-leaf"></i> Inspirado en ingredientes naturales</span>
+            <span><i class="fas fa-shield-heart"></i> Rutina suave</span>
+          </div>
+        </div>
+
+        <aside class="hero-card reveal">
+          <img src="combo-nova-essence-800.png" alt="Combo Nova Essence con vela aromatica de canela">
+          <div>
+            <p class="card-kicker">Combo especial</p>
+            <h2>RD$800</h2>
+            <p>Vela de canela, gel hidratante y exfoliante de cafe en una presentacion lista para regalar.</p>
+          </div>
+        </aside>
+      </div>
+
+      <button class="hero-arrow left" type="button" id="prevHero" aria-label="Imagen anterior">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="hero-arrow right" type="button" id="nextHero" aria-label="Imagen siguiente">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </section>
+
+    <section class="metrics-section" aria-label="Resultados fijos">
+      <div class="container metrics-grid">
+        <article class="metric reveal">
+          <strong data-count="92">0</strong><span>%</span>
+          <p>Hidratacion validada</p>
+        </article>
+        <article class="metric reveal">
+          <strong data-count="12">0</strong><span>h</span>
+          <p>Frescura estimada</p>
+        </article>
+        <article class="metric reveal">
+          <strong data-count="89">0</strong><span>%</span>
+          <p>Mejora en luminosidad</p>
+        </article>
+        <article class="metric note reveal">
+          <i class="fas fa-circle-check"></i>
+          <p>Resultados fijos, no cambiantes, presentados como referencia para comunicar la experiencia de bienestar.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="beneficios" class="section benefits-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Beneficios principales</p>
+          <h2>Una rutina simple, fresca y bonita.</h2>
+          <p>Ideal para clientes que buscan hidratacion, exfoliacion suave y un ambiente calido para acompanar su autocuidado.</p>
+        </div>
+
+        <div class="benefit-grid">
+          <article class="info-card reveal">
+            <i class="fas fa-fire-flame-curved"></i>
+            <h3>Aroma acogedor</h3>
+            <p>La canela aporta una sensacion calida y envolvente para acompanar momentos de calma.</p>
+          </article>
+          <article class="info-card reveal">
+            <i class="fas fa-leaf"></i>
+            <h3>Toque artesanal</h3>
+            <p>Una pieza decorativa hecha a mano que luce bonita en espacios de descanso o regalo.</p>
+          </article>
+          <article class="info-card reveal">
+            <i class="fas fa-spa"></i>
+            <h3>Momento relajante</h3>
+            <p>Perfecta para encender al final del dia, durante una rutina de cuidado o en un espacio especial.</p>
+          </article>
+          <article class="info-card reveal">
+            <i class="fas fa-gift"></i>
+            <h3>Presentacion premium</h3>
+            <p>Un producto visualmente atractivo para venta, regalos, ferias escolares o emprendimiento.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="catalogo" class="section catalog-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Catalogo</p>
+          <h2>Productos nuevos para una rutina completa.</h2>
+          <p>Catalogo actualizado con combo especial de RD$800 y presentaciones artesanales de canela, aloe vera y cafe.</p>
+        </div>
+
+        <div class="catalog-grid">
+          <article class="product-card reveal accent" data-product="Combo Nova Essence" data-price="800">
+            <div class="product-image">
+              <img src="combo-nova-essence-800.png" alt="Combo Nova Essence con gel, exfoliante y vela de canela">
+              <span class="stock-pill"><i class="fas fa-check"></i> Combo</span>
+            </div>
+            <div class="product-body">
+              <p class="product-category">Combo especial</p>
+              <h3>Combo Nova Essence</h3>
+              <p>Incluye gel hidratante, exfoliante de cafe y vela aromatica de canela en una presentacion artesanal para regalar o disfrutar.</p>
+              <div class="price-row">
+                <strong>RD$800</strong>
+                <span>combo completo</span>
+              </div>
+              <div class="product-details">
+                <div>
+                  <span>Incluye</span>
+                  <strong>3 productos</strong>
+                </div>
+                <div>
+                  <span>Ideal para</span>
+                  <strong>Regalos y autocuidado</strong>
+                </div>
+              </div>
+              <button class="btn btn-primary product-order" type="button">
+                <i class="fab fa-whatsapp"></i>
+                Pedir combo
+              </button>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-product="Vela Aromatica de Canela" data-price="100">
+            <div class="product-image">
+              <img src="vela-aromatica-canela.png" alt="Vela aromatica de canela artesanal">
+              <span class="stock-pill"><i class="fas fa-check"></i> Disponible</span>
+            </div>
+            <div class="product-body">
+              <p class="product-category">Vela aromatica</p>
+              <h3>Vela Aromatica de Canela</h3>
+              <p>Vela artesanal con aroma a canela, ideal para crear un ambiente calido, relajante y listo para regalar.</p>
+              <div class="price-row">
+                <strong>RD$100</strong>
+                <span>por unidad</span>
+              </div>
+              <div class="product-details">
+                <div>
+                  <span>Uso</span>
+                  <strong>Ambientes interiores</strong>
+                </div>
+                <div>
+                  <span>Aroma</span>
+                  <strong>Canela calida</strong>
+                </div>
+              </div>
+              <button class="btn btn-primary product-order" type="button">
+                <i class="fab fa-whatsapp"></i>
+                Pedir vela
+              </button>
+            </div>
+          </article>
+
+          <article class="product-card reveal accent" data-product="Exfoliante de Cafe Lumin" data-price="400">
+            <div class="product-image">
+              <img src="exfoliante-cafe-abierto.png" alt="Exfoliante de cafe Lumin">
+              <span class="stock-pill"><i class="fas fa-check"></i> Nuevo</span>
+            </div>
+            <div class="product-body">
+              <p class="product-category">Exfoliante corporal</p>
+              <h3>Exfoliante de Cafe Lumin</h3>
+              <p>Exfoliacion con cafe, miel y aceite de coco para retirar impurezas y dejar la piel mas lisa.</p>
+              <div class="price-row">
+                <strong>RD$400</strong>
+                <span>por unidad</span>
+              </div>
+              <div class="product-details">
+                <div>
+                  <span>Uso</span>
+                  <strong>1 a 2 veces/semana</strong>
+                </div>
+                <div>
+                  <span>Textura</span>
+                  <strong>Granulada y nutritiva</strong>
+                </div>
+              </div>
+              <button class="btn btn-primary product-order" type="button">
+                <i class="fab fa-whatsapp"></i>
+                Pedir exfoliante
+              </button>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-product="Gel Hidratante de Aloe Vera" data-price="450">
+            <div class="product-image">
+              <img src="gel-hidratante-aloe.png" alt="Gel hidratante de aloe vera">
+              <span class="stock-pill"><i class="fas fa-check"></i> Disponible</span>
+            </div>
+            <div class="product-body">
+              <p class="product-category">Gel hidratante</p>
+              <h3>Gel Hidratante de Aloe Vera</h3>
+              <p>Gel ligero de aloe vera para una sensacion refrescante, hidratada y limpia durante el dia.</p>
+              <div class="price-row">
+                <strong>RD$450</strong>
+                <span>por unidad</span>
+              </div>
+              <div class="product-details">
+                <div>
+                  <span>Uso</span>
+                  <strong>Diario</strong>
+                </div>
+                <div>
+                  <span>Textura</span>
+                  <strong>Gel fresco</strong>
+                </div>
+              </div>
+              <button class="btn btn-primary product-order" type="button">
+                <i class="fab fa-whatsapp"></i>
+                Pedir gel
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="piel" class="section skin-section">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="eyebrow">Guia personalizada</p>
+          <h2>Elige el ambiente que quieres crear.</h2>
+          <p>Selecciona una opcion y la pagina te recomendara una forma de disfrutar la vela.</p>
+        </div>
+
+        <div class="skin-quiz reveal" id="skinQuiz">
+          <button type="button" data-skin="seca">
+            <i class="fas fa-moon"></i>
+            Noche tranquila
+          </button>
+          <button type="button" data-skin="mixta">
+            <i class="fas fa-mug-hot"></i>
+            Tarde acogedora
+          </button>
+          <button type="button" data-skin="sensible">
+            <i class="fas fa-gift"></i>
+            Regalo especial
+          </button>
+        </div>
+
+        <div class="quiz-result reveal" id="quizResult">
+          <h3>Recomendacion inicial</h3>
+          <p>Elige un ambiente para ver una sugerencia.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="rutina" class="section routine-section">
+      <div class="container routine-layout">
+        <div class="routine-copy reveal">
+          <p class="eyebrow">Modo de uso</p>
+          <h2>Uso en 5 pasos para disfrutarla mejor.</h2>
+          <p>Un uso cuidadoso ayuda a mantener la experiencia aromatica agradable y segura.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span>01</span>
+            <div>
+              <h3>Prepara</h3>
+              <p>Coloca la vela sobre una superficie estable, resistente al calor y lejos de telas.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <span>02</span>
+            <div>
+              <h3>Enciende</h3>
+              <p>Prende la mecha con cuidado y deja que el aroma a canela empiece a llenar el espacio.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <span>03</span>
+            <div>
+              <h3>Disfruta</h3>
+              <p>Usala en momentos de lectura, descanso, rutina personal o una tarde acogedora.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <span>04</span>
+            <div>
+              <h3>Supervisa</h3>
+              <p>Mantenla siempre a la vista mientras esta encendida y lejos de corrientes de aire.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <span>05</span>
+            <div>
+              <h3>Apaga</h3>
+              <p>Apagala con cuidado y espera a que la cera se enfrie antes de moverla.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Testimonios fijos</p>
+          <h2>Opiniones seleccionadas para representar la experiencia del producto.</h2>
+          <p>Estos testimonios estan revisados para mantener coherencia con el uso recomendado.</p>
+        </div>
+
+        <div class="testimonial-grid">
+          <article class="testimonial reveal">
+            <div class="stars" aria-label="5 estrellas">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p>"El aroma a canela se siente calido y hace que el espacio se vea mas especial."</p>
+            <strong>Noche tranquila</strong>
+          </article>
+          <article class="testimonial reveal">
+            <div class="stars" aria-label="5 estrellas">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p>"La presentacion se ve natural, bonita y lista para regalar."</p>
+            <strong>Detalle especial</strong>
+          </article>
+          <article class="testimonial reveal">
+            <div class="stars" aria-label="5 estrellas">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p>"Es una opcion facil para acompanar una rutina de autocuidado sin complicaciones."</p>
+            <strong>Autocuidado semanal</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pedido" class="section order-section">
+      <div class="container order-layout">
+        <div class="order-copy reveal">
+          <p class="eyebrow">Pedido rapido</p>
+          <h2>Arma tu mensaje y envialo directo por WhatsApp.</h2>
+          <p>Completa los datos basicos. No se guarda informacion en la pagina; solo se genera un mensaje para WhatsApp.</p>
+        </div>
+
+        <form class="order-form reveal" id="orderForm">
+          <label>
+            Nombre
+            <input type="text" id="customerName" placeholder="Tu nombre" required>
+          </label>
+
+          <label>
+            Ambiente u ocasion
+            <select id="customerSkin" required>
+              <option value="">Selecciona una opcion</option>
+              <option value="noche tranquila">Noche tranquila</option>
+              <option value="tarde acogedora">Tarde acogedora</option>
+              <option value="regalo especial">Regalo especial</option>
+              <option value="uso personal">Uso personal</option>
+            </select>
+          </label>
+
+          <label>
+            Producto
+            <select id="customerProduct" required>
+              <option value="Vela Aromatica de Canela" data-price="100">Vela Aromatica de Canela - RD$100</option>
+              <option value="Exfoliante de Cafe Lumin" data-price="400">Exfoliante de Cafe Lumin - RD$400</option>
+              <option value="Gel Hidratante de Aloe Vera" data-price="450">Gel Hidratante de Aloe Vera - RD$450</option>
+              <option value="Combo Nova Essence" data-price="800">Combo Nova Essence - RD$800</option>
+            </select>
+          </label>
+
+          <label>
+            Cantidad
+            <input type="number" id="orderQuantity" min="1" value="1" required>
+          </label>
+
+          <label>
+            Comentario
+            <textarea id="orderComment" rows="4" placeholder="Ejemplo: quiero saber precio y entrega disponible"></textarea>
+          </label>
+
+          <button class="btn btn-primary" type="submit">
+            <i class="fab fa-whatsapp"></i>
+            Enviar pedido
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section id="faq" class="section faq-section">
+      <div class="container faq-layout">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Preguntas frecuentes</p>
+          <h2>Informacion clara antes de comprar.</h2>
+        </div>
+
+        <div class="faq-list reveal">
+          <article class="faq-item active">
+            <button type="button">
+              Cuanto tiempo puedo encenderla?
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <p>Usala en sesiones cortas y mantenla siempre supervisada mientras este encendida.</p>
+          </article>
+          <article class="faq-item">
+            <button type="button">
+              El aroma es fuerte?
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <p>Tiene un aroma calido a canela pensado para ambientar sin perder el toque artesanal.</p>
+          </article>
+          <article class="faq-item">
+            <button type="button">
+              Es buena para regalar?
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <p>Si, su forma decorativa y aroma la hacen ideal para detalles, ferias o regalos especiales.</p>
+          </article>
+          <article class="faq-item">
+            <button type="button">
+              Como hago mi pedido?
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <p>Usa el formulario de pedido o el boton flotante de WhatsApp para escribir directamente al contacto oficial.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <a class="footer-brand" href="#inicio">Nova Essence</a>
+      <p>100% artesanal, creado con amor para tu cuidado natural. Belleza natural en cada detalle, aroma y bienestar. Canela calida.</p>
+    </div>
+    <div class="footer-contact">
+      <a href="https://wa.me/18296863632?text=Hola%2C%20quiero%20informacion%20sobre%20Nova%20Essence" target="_blank" rel="noreferrer">
+        <i class="fab fa-whatsapp"></i>
+        +1 829-686-3632
+      </a>
+      <div class="social">
+        <i class="fab fa-facebook" aria-hidden="true"></i>
+        <a href="https://www.instagram.com/novaessence.rd?utm_source=ig_web_button_share_sheet&amp;igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer" aria-label="Abrir Instagram de Nova Essence">
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+          <span>@novaessence.rd</span>
+        </a>
+        <i class="fab fa-tiktok" aria-hidden="true"></i>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp" href="https://wa.me/18296863632?text=Hola%2C%20quiero%20informacion%20sobre%20Nova%20Essence" target="_blank" rel="noreferrer" aria-label="Contactar por WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <button class="back-to-top" type="button" id="backToTop" aria-label="Subir al inicio">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="app.js"></script>
+</body>
+</html>
